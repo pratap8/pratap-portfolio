@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pratap-portfolio/static/css/main.8069f02a.css",
-    "main.js": "/pratap-portfolio/static/js/main.4687d3ec.js",
+    "main.css": "/pratap-portfolio/static/css/main.00e0c868.css",
+    "main.js": "/pratap-portfolio/static/js/main.f5c0c87b.js",
     "index.html": "/pratap-portfolio/index.html",
-    "main.8069f02a.css.map": "/pratap-portfolio/static/css/main.8069f02a.css.map",
-    "main.4687d3ec.js.map": "/pratap-portfolio/static/js/main.4687d3ec.js.map"
+    "main.00e0c868.css.map": "/pratap-portfolio/static/css/main.00e0c868.css.map",
+    "main.f5c0c87b.js.map": "/pratap-portfolio/static/js/main.f5c0c87b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8069f02a.css",
-    "static/js/main.4687d3ec.js"
+    "static/css/main.00e0c868.css",
+    "static/js/main.f5c0c87b.js"
   ]
 }
