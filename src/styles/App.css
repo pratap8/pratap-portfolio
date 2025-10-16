@@ -261,6 +261,13 @@ body {
   transform: translateY(-4px);
   opacity: 0.9;
 }
+.contact-btn.phone {
+  background-color: #28a745;
+}
+
+.contact-btn.whatsapp {
+  background-color: #25d366;
+}
 
 
 
