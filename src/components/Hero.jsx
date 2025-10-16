@@ -11,7 +11,7 @@ const Hero = () => {
           Passionate Java developer with 3+ years of experience building
           scalable and secure backend systems using Spring Boot and modern technologies.
         </p>
-        <a href="#projects" className="cta-button">View My Work</a>
+        <a href="#experience" className="cta-button">View My Experience</a>
       </div>
     </section>
   );
