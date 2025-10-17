@@ -49,12 +49,7 @@ const Resume = () => {
       <div className="resume-container">
         {/* Left side */}
         <div className="resume-left">
-          <h2 className="section-title">Resume</h2>
-          <p>
-            {isGitHub
-              ? "Below is my professional resume for public viewing."
-              : "You can upload and preview your resume here. It stays saved locally in your browser."}
-          </p>
+          <h2 className="section-title">P B R Pratap<br></br>Resume</h2>       
         </div>
 
         {/* Right side */}
