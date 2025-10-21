@@ -13,13 +13,14 @@ const Projects = () => {
           Designed and implemented a complete bus booking and management system where users could book, 
           view, and cancel tickets. Optimized SQL queries and database schema, improving response time by 30%.
         </p>
-        <a
+        {/* Once the project is available then un-comment below part and add git-repo */}
+        {/* <a
           href="#"
           className="project-btn"
           onClick={(e) => e.preventDefault()}
         >
           View Details
-        </a>
+        </a> */}
       </div>
     </section>
   );

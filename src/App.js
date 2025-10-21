@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Certificate from "./components/Certifications";
 import Resume from "./components/Resume";
+import Publications from "./components/Publications";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Skills />
       <Resume />
       <Certificate />
+      <Publications />
       <Contact />
     </div>
   );
