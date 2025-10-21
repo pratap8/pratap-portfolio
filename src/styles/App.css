@@ -49,7 +49,7 @@ body {
   align-items: center;
   text-align: center;
   background: linear-gradient(135deg, #e0e7ff, #f9f9ff);
-   padding: 50px 30px;
+  padding: 50px 30px;
 }
 
 .hero-content {
@@ -108,7 +108,7 @@ body {
 
 /* ---------- Experience Section ---------- */
 .experience-section {
-   padding: 50px 30px;
+  padding: 50px 30px;
   background-color: #ffffff;
   text-align: center;
 }
@@ -151,7 +151,7 @@ body {
 
 /* ---------- Projects Section ---------- */
 .projects-section {
-   padding: 50px 30px;
+  padding: 50px 30px;
   background-color: #f9f9f9;
   text-align: center;
 }

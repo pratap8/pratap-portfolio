@@ -15,7 +15,7 @@ const Publications = () => {
       date: "Aug 6, 2021",
       Application: "202141034362 A",
       journalNumber: "32/2021",
-      link: "https://search.ipindia.gov.in/IPOJournal/Journal/ViewJournal",
+      link: "https://search.ipindia.gov.in/IPOJournal/Journal/Patent",
     },
     
   ];
