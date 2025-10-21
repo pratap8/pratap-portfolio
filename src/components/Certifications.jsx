@@ -5,7 +5,7 @@ const Certificates = () => {
   const certificates = [
     {
       title: "Oracle Certified Professional: Java SE 11 Developer",
-      image: `${process.env.PUBLIC_URL}/certificates/java11.jpg`,
+      image: `${process.env.PUBLIC_URL}/certificates/Java11.jpg`,
       link: `https://catalog-education.oracle.com/ords/certview/sharebadge?id=6A9A38B971D667150AF032CAD22D9B57D8672D190EEECC73F310C0EF230FF291`,
     },
     {
