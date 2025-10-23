@@ -57,8 +57,8 @@ const Resume = () => {
           {/* Show static PDF for GitHub Pages */}
           {isGitHub ? (
             <iframe
-              src={`${process.env.PUBLIC_URL}/Resume.pdf#toolbar=0&navpanes=0`}
-              title="Resume"
+              src={`${process.env.PUBLIC_URL}/ResumePratap.pdf#toolbar=0&navpanes=0`}
+              title="ResumePratap"
               width="100%"
               height="500px"
               style={{ border: "none" }}
