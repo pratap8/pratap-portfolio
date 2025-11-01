@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact" className="contact-section">
       <h2 className="section-title">Contact Me</h2>
       <p className="contact-text">
-        I'm open to new opportunities and collaborations. Feel free to reach out!
+        Feel free to reach out!
       </p>
 
       <div className="contact-links">

@@ -4,7 +4,7 @@ import "../styles/App.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h2 className="logo">P B R Pratap Singh</h2>
+      <h2 className="logo">Phool Babu Raj Pratap Singh</h2>
       <ul className="nav-links">
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
