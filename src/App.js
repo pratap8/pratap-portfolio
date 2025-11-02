@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Certificate from "./components/Certifications";
 import Resume from "./components/Resume";
 import Publications from "./components/Publications";
+import Chatbot from "./components/Chatbot";
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
       <Certificate />
       <Publications />
       <Contact />
+
+      
+      {/* 👇 Add chatbot here so it floats on top of everything */}
+      <Chatbot />
     </div>
   );
 }
