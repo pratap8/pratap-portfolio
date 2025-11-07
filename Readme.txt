@@ -6,6 +6,9 @@ git push origin main
 //Deploy in static page github.into
 npm run deploy
 
+//Vercel command
+npm run build
+
 //run below sttaic page
 https://pratap8.github.io/pratap-portfolio/
 
