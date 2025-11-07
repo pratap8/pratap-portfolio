@@ -24,8 +24,7 @@
     "deploy": "gh-pages -d build",
     "dev:vite": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "postinstall": "patch-package"
+    "preview": "vite preview"
   },
   "eslintConfig": {
     "extends": [
