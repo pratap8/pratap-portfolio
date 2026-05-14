@@ -17,7 +17,7 @@ function Chatbot() {
     setLoading(true);
 
     try {
-      const resp = await fetch("/api/chat", {
+const resp = await fetch("http://localhost:5000/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),
@@ -49,7 +49,7 @@ function Chatbot() {
       {isOpen && (
         <div className="chatbot-window">
           <div className="chatbot-header">
-            <h4>AI Assistant</h4>
+            <h4>Pratap Info</h4>
             <button onClick={() => setIsOpen(false)}>✖</button>
           </div>
 
