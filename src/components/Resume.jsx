@@ -44,6 +44,20 @@ const Resume = () => {
     setResumeFile(null);
   };
 
+  // Download resume
+  const handleDownload = () => {
+    let href;
+    if (isGitHub) {
+      href = `${process.env.PUBLIC_URL}/PratapResume.pdf`;
+    } else {
+      href = resumeFile;
+    }
+    const link = document.createElement('a');
+    link.href = href;
+    link.download = 'PratapResume.pdf';
+    link.click();
+  };
+
   return (
     <section id="resume" className="resume-section">
       <div className="resume-container">
@@ -56,13 +70,18 @@ const Resume = () => {
         <div className="resume-right">
           {/* Show static PDF for GitHub Pages */}
           {isGitHub ? (
-            <iframe
-              src={`${process.env.PUBLIC_URL}/PratapResume.pdf#toolbar=0&navpanes=0`}
-              title="ResumePratap"
-              width="100%"
-              height="500px"
-              style={{ border: "none" }}
-            />
+            <div className="resume-preview">
+              <iframe
+                src={`${process.env.PUBLIC_URL}/PratapResume.pdf#toolbar=0&navpanes=0`}
+                title="ResumePratap"
+                width="100%"
+                height="500px"
+                style={{ border: "none" }}
+              />
+              <button className="resume-btn download" onClick={handleDownload}>
+                Download Resume
+              </button>
+            </div>
           ) : !resumeFile ? (
             <div className="upload-area">
               <p>No resume uploaded yet.</p>
@@ -81,6 +100,9 @@ const Resume = () => {
                 height="500px"
                 style={{ border: "none" }}
               ></iframe>
+              <button className="resume-btn download" onClick={handleDownload}>
+                Download Resume
+              </button>
               <button className="resume-btn delete" onClick={handleDelete}>
                 Delete Resume
               </button>
